@@ -1,0 +1,175 @@
+h1,
+h2,
+h3,
+h4 {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  vertical-align: top;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li,
+dd,
+dl,
+dt,
+p {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.le {
+  float: left;
+}
+.ri {
+  float: right;
+}
+.cl {
+  clear: left;
+}
+.cr {
+  clear: right;
+}
+.all {
+  width: 1920px;
+  height: 900px;
+}
+#show {
+  width: 40px;
+  height: 400px;
+  position: absolute;
+  right: 0;
+  top: 25%;
+}
+#show > ul {
+  position: relative;
+}
+#show > ul #i-1 {
+  position: absolute;
+  top: 80px;
+  background-image: url(img/t.jpg);
+}
+#show > ul #i-2 {
+  position: absolute;
+  top: 120px;
+  background-image: url(img/book.jpg);
+}
+#show > ul #i-3 {
+  position: absolute;
+  top: 200px;
+  background-image: url(img/z.jpg);
+}
+#show > ul #i-4 {
+  position: absolute;
+  top: 240px;
+  background-image: url(img/k.jpg);
+}
+#show > ul .click {
+  position: absolute;
+  top: 160px;
+  background-image: url(img/o.jpg);
+}
+#show > ul > li {
+  width: 40px;
+  height: 40px;
+}
+#show > ul > li > a {
+  display: inline-block;
+  width: 66px;
+  height: 40px;
+  position: absolute;
+  left: -66px;
+  display: none;
+}
+#show > ul > li > a > img {
+  width: 100%;
+}
+#hidden {
+  width: 40px;
+  height: 400px;
+  position: absolute;
+  right: 0;
+  top: 25%;
+  display: none;
+}
+#hidden > ul {
+  position: relative;
+}
+#hidden > ul > li {
+  width: 40px;
+  height: 40px;
+}
+#hidden > ul > li > a {
+  display: inline-block;
+  width: 66px;
+  height: 40px;
+  position: absolute;
+  left: -66px;
+  display: none;
+}
+#hidden > ul > li > a > img {
+  width: 100%;
+}
+#hidden > ul #i-5 {
+  position: absolute;
+  top: 0px;
+  background-image: url(img/h.jpg);
+}
+#hidden > ul #i-6 {
+  position: absolute;
+  top: 40px;
+  background-image: url(img/b.jpg);
+}
+#hidden > ul #i-7 {
+  position: absolute;
+  top: 80px;
+  background-image: url(img/t.jpg);
+}
+#hidden > ul #i-8 {
+  position: absolute;
+  top: 120px;
+  background-image: url(img/book.jpg);
+}
+#hidden > ul > .close {
+  position: absolute;
+  top: 160px;
+  background-image: url(img/x.jpg);
+}
+#hidden > ul #i-9 {
+  position: absolute;
+  top: 200px;
+  background-image: url(img/z.jpg);
+}
+#hidden > ul #i-0 {
+  position: absolute;
+  top: 240px;
+  background-image: url(img/k.jpg);
+}
+#hidden > ul #i_0 {
+  position: absolute;
+  top: 280px;
+  background-image: url(img/n.jpg);
+}
+#hidden > ul #i_1 {
+  position: absolute;
+  top: 320px;
+  background-image: url(img/i.jpg);
+}
+#hidden > ul #i_2 {
+  position: absolute;
+  top: 360px;
+  background-image: url(img/f.jpg);
+}

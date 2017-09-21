@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="스크립트.css">
+    <title>스크립트</title>
+  </head>
+  <script>
+  $(function(){
+
+
+  $('#show .click').click(function(){
+        $(this).parent('#show').css('display','none')
+        $('#hidden').css('display','block');
+        console.log("1234")
+      })
+  $('#hidden .close').click(function(){
+        $('#hidden').css('display','none')
+        console.log("4")
+      })
+
+
+            $('#show li').mouseenter(function(){
+              var index = $(this).index();
+              var img = $(this).children('a')
+                console.log(index)
+                  if(5 > index){
+                      img.css({
+                      'display':'block'
+                      })
+
+                    }else if (index <= 0){
+                      img.css({
+                      'display':'none'
+                      })
+                    }
+              });
+
+          $('#show li').mouseleave(function(){
+                var index = $(this).index();
+                var img = $(this).children('a')
+                    if(index < 5){
+                        img.css({
+                        'display':'none'
+                        })
+                      }
+                  });
+
+
+             $('#hidden li').mouseenter(function(){
+                    var index1 = $(this).index();
+                    var img1 = $(this).children('a')
+                        console.log(index1);
+                        if(9 >= index1){
+                           img1.css({
+                              'display':'block'
+                                })
+                        }else if (index1 <= 9){
+                                  img1.css({
+                                  'display':'none'
+                                    })
+                                  }
+                              });
+
+                 $('#hidden li').mouseleave(function(){
+                      var index = $(this).index();
+                      var img = $(this).children('a')
+                        if(index <= 9){
+                            img.css({
+                              'display':'none'
+                                   })
+                                 }
+                            });
+
+
+      });
+  </script>
+
+  <body>
+    <section>
+          <div class="all">
+                <div id="show">
+                    <ul>
+                      <li id="i-1" alr="버튼" >
+                        <a href=""><img src="img/3.jpg" alt="img"></a>
+                      </li>
+                      <li id="i-2" alr="버튼" >
+                        <a href=""><img src="img/4.jpg" alt="img"></a>
+                      </li>
+                      <li class="click" alr="버튼" >
+                          <a href=""><img src="img/5.jpg" alt="img"></a>
+                      </li>
+                      <li id="i-3" alr="버튼" >
+                        <a href=""><img src="img/7.jpg" alt="img"></a>
+                      </li>
+                      <li id="i-4" alr="버튼" >
+                        <a href=""><img src="img/8.jpg" alt="img"></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div id="hidden">
+                      <ul>
+                        <li id="i-5" alr="버튼" >
+                          <a href=""><img src="img/1.jpg" alt="img"></a>
+                        </li>
+                        <li id="i-6" alr="버튼" >
+                          <a href=""><img src="img/2.jpg" alt="img"></a>
+                        </li>
+                        <li id="i-7" alr="버튼" >
+                          <a href=""><img src="img/3.jpg" alt="img"></a>
+                        </li>
+                        <li id="i-8" alr="버튼" >
+                          <a href=""><img src="img/4.jpg" alt="img"></a>
+                        </li>
+                        <li class="close" alr="버튼" >
+                          <a href=""><img src="img/6.jpg" alt="img"></a>
+                        </li>
+                        <li id="i-9" alr="버튼" >
+                          <a href=""><img src="img/7.jpg" alt="img"></a>
+                        </li>
+                        <li id="i-0" alr="버튼" >
+                          <a href=""><img src="img/8.jpg" alt="카카오톡"></a>
+                        </li>
+                        <li id="i_0" alr="버튼" >
+                          <a href=""><img src="img/9.jpg" alt="네이버"></a>
+                        </li>
+                        <li id="i_1" alr="버튼" >
+                          <a href=""><img src="img/10.jpg" alt="img"></a>
+                        </li>
+                        <li id="i_2" alr="버튼" >
+                          <a href=""><img src="img/11.jpg" alt="img"></a>
+                        </li>
+                      </ul>
+                    </div>
+              </div>
+      </section>
+  </body>
+</html>
