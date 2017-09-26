@@ -13,13 +13,17 @@
                   .ri{float:right};
                   .cl{clear:left};
                   .cr{clear:right};
-// background-image: url(../img/main.jpg);
+      // background-image: url(../img/main.jpg);
         //헤더 시작
-            header{outline:1px red solid; width:1920px; height:80px; background-color:#99ffff; position:relative; }
+            header{outline:1px red solid; width:1920px; height:80px; background-color:#99ffff; position:relative; z-index:2;}
             .all{padding:0 40px; outline:1px red solid; max-width:1580px; margin:0 auto;}
             .logo{margin-top:10px;}
             .category{outline:1px red solid; margin-top:20px;
-                    >ul{font-size:0px;}
+                    >ul{font-size:0px; text-align:center;}
                   >ul>li{outline:1px red solid; width:100px; display:inline-block; font-size:15px;}
-            }
-        section{width:100%; hegith:100%; background-color:red;}
+                      }
+              section{width:100%; hegith:100%; height:100vh; background-color:red; position:absolute; top:0; left:0;}
+              .text{outline:1px black solid;}
+              .main{width:500px; height:500px; outline:1px black solid;}
+              .main-text{outline:2px black solid;}
+              .text-bottom{outline:2px black solid; font-size:25px;}
