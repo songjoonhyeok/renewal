@@ -29,8 +29,6 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color: #fff;
-  background-color: black;
 }
 .le {
   float: left;
@@ -46,106 +44,35 @@ body {
 }
 header {
   outline: 1px red solid;
-  width: 100%;
-  height: 800px;
+  width: 1920px;
+  height: 80px;
   background-color: #99ffff;
+  position: relative;
 }
-.web {
-  width: 100%;
+.all {
+  padding: 0 40px;
   outline: 1px red solid;
-  height: 110px;
-  text-align: center;
-  color: #fff;
-}
-.nav {
-  width: 100%;
-  margin-bottom: 100px;
-  color: #fff;
-  position: fixed;
+  max-width: 1580px;
   margin: 0 auto;
-  z-index: 1;
 }
-.nav > h1 {
-  margin-top: 20px;
-  width: 150px;
-  height: 70px;
-  outline: 1px red solid;
-  color: #fff;
-  position: absolute;
-  top: 10%;
-  left: 10%;
-}
-.nav > ul {
-  font-size: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  margin: 0 auto;
-  height: 110px;
-}
-.nav > ul > span {
-  display: inline-block;
-  background-color: black;
-  position: absolute;
-  width: 220px;
-  height: 2px;
-  outline: 1px red solid;
-  top: 110px;
-}
-.nav .right-text {
-  outline: 1px red solid;
-  position: absolute;
-  top: 50%;
-  right: 10%;
-}
-.list {
+.logo {
   margin-top: 10px;
-  display: inline-block;
+}
+.category {
+  outline: 1px red solid;
+  margin-top: 20px;
+}
+.category > ul {
   font-size: 0px;
-  width: 220px;
-  height: 100px;
-  outline: 1px #fff solid;
-  line-height: 6;
 }
-.list > a {
-  color: #fff;
+.category > ul > li {
+  outline: 1px red solid;
+  width: 100px;
   display: inline-block;
-  font-size: 17px;
-  width: 100%;
-  height: 100%;
-}
-.gnb_hidden {
-  outline: 1px red solid;
-  width: 100%;
-  height: 500px;
   font-size: 15px;
+}
+section {
+  width: 100%;
+  hegith: 100%;
   background-color: red;
-}
-.gnb_hidden ul > li {
-  position: relative;
-}
-.gnb_hidden ul > li > span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: blue;
-  width: 100%;
-  height: 2px;
-}
-.hidden-text {
-  width: 100%;
-  outline: 1px red solid;
-  height: 500px;
-}
-.hidden-text > div {
-  min-width: 800px;
-  height: 100%;
-  outline: 5px blue solid;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-}
-.hidden-text > div > h2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
 }
