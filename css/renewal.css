@@ -73,27 +73,94 @@ header {
   display: inline-block;
   font-size: 15px;
 }
-section {
+.main-intro {
   width: 100%;
   hegith: 100%;
   height: 100vh;
-  background-color: red;
+  background-color: rgba(255, 105, 44, 0.6);
   position: absolute;
   top: 0;
   left: 0;
 }
-.text {
+.main-intro .text {
   outline: 1px black solid;
 }
-.main {
+.main-intro .main {
+  position: absolute;
+  top: 30%;
+  outline: 2px blue solid;
   width: 500px;
-  height: 500px;
+  height: 300px;
+  left: 200px;
+}
+.main-intro .main-text {
+  outline: 2px black solid;
+  position: relative;
+}
+.main-intro .position-top {
+  position: absolute;
+  top: 20px;
+}
+.main-intro .position-middle {
+  position: absolute;
+  top: 50px;
+}
+.main-intro .text-bottom {
+  outline: 2px black solid;
+  font-size: 24px;
+  position: absolute;
+  top: 100px;
+}
+.main-intro .btn-box {
+  position: absolute;
+  top: 180px;
+  left: 5px;
+  width: 160px;
+  height: 60px;
   outline: 1px black solid;
+  font-size: 0px;
 }
-.main-text {
-  outline: 2px black solid;
+.main-intro .btn-box > a {
+  display: inline-block;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
 }
-.text-bottom {
-  outline: 2px black solid;
-  font-size: 25px;
+.down {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  outline: 1px red solid;
+}
+.down > ul > li {
+  outline: 1px red solid;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+.risize-position {
+  position: relative;
+  top: 910px;
+  outline: 1px red solid;
+  width: 100%;
+}
+.risize-position > div {
+  padding-top: 80px;
+  outline: 2px blue solid;
+  text-align: center;
+}
+.risize-position > div > p {
+  outline: 1px red solid;
+  width: 500px;
+  height: 40px;
+  margin: 0 auto;
+}
+.risize-position > div > ul > li {
+  outline: 1px red solid;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
 }
