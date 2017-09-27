@@ -44,7 +44,7 @@ body {
 }
 header {
   outline: 1px red solid;
-  width: 1920px;
+  width: 100%;
   height: 80px;
   background-color: rgba(255, 255, 255, 0.6);
   position: relative;
