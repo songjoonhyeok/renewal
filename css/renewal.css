@@ -46,9 +46,12 @@ header {
   outline: 1px red solid;
   width: 1920px;
   height: 80px;
-  background-color: #99ffff;
+  background-color: rgba(255, 255, 255, 0.6);
   position: relative;
   z-index: 2;
+}
+.nav {
+  width: 1920px;
 }
 .all {
   padding: 0 40px;
@@ -77,10 +80,14 @@ header {
   width: 100%;
   hegith: 100%;
   height: 100vh;
-  background-color: rgba(255, 105, 44, 0.6);
   position: absolute;
   top: 0;
   left: 0;
+  background-image: url(../img/main-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
 }
 .main-intro .text {
   outline: 1px black solid;
@@ -133,23 +140,25 @@ header {
   width: 100%;
   text-align: center;
   outline: 1px red solid;
+  z-index: 2;
 }
 .down > ul > li {
   outline: 1px red solid;
   width: 100px;
-  height: 100px;
+  height: 30px;
   margin: 0 auto;
 }
 .risize-position {
   position: relative;
-  top: 910px;
+  top: 896px;
   outline: 1px red solid;
   width: 100%;
 }
 .risize-position > div {
-  padding-top: 80px;
+  padding-top: 25px;
   outline: 2px blue solid;
   text-align: center;
+  background-color: rgba(31, 33, 33, 0.3);
 }
 .risize-position > div > p {
   outline: 1px red solid;
