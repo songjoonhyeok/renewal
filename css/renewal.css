@@ -24,7 +24,6 @@ p {
 body {
   margin: 0px;
   padding: 0px;
-  overflow: hidden;
 }
 html,
 body {
@@ -42,9 +41,6 @@ body {
 }
 .cr {
   clear: right;
-}
-.wab {
-  height: 100%;
 }
 header {
   outline: 1px red solid;
@@ -84,9 +80,6 @@ header {
   width: 100%;
   hegith: 100%;
   height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
   background-image: url(../img/main-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -154,8 +147,6 @@ header {
   margin: 0 auto;
 }
 .risize-position {
-  position: relative;
-  top: 895px;
   outline: 1px red solid;
   width: 100%;
 }
@@ -175,9 +166,8 @@ header {
 }
 .Profile-img {
   outline: 1px red solid;
-  position: relative;
-  top: 83%;
   width: 100%;
+  position: relative;
 }
 .Profile-img ul > li {
   outline: 1px red solid;
