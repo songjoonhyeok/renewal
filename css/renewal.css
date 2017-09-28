@@ -141,6 +141,7 @@ header {
   text-align: center;
   outline: 1px red solid;
   z-index: 2;
+  transform: translateY(-100%);
 }
 .down > ul > li {
   outline: 1px red solid;
@@ -150,12 +151,13 @@ header {
 }
 .risize-position {
   position: relative;
-  top: 855px;
+  top: 895px;
   outline: 1px red solid;
   width: 100%;
 }
 .risize-position > div {
-  padding-top: 25px;
+  padding-top: 80px;
+  height: 300px;
   outline: 2px blue solid;
   text-align: center;
   background-color: rgba(31, 33, 33, 0.3);
@@ -163,13 +165,19 @@ header {
 .risize-position > div > p {
   outline: 1px red solid;
   width: 500px;
-  height: 40px;
+  height: 80px;
   margin: 0 auto;
+  font-size: 25px;
 }
-.risize-position > div > ul > li {
+.Profile-img {
   outline: 1px red solid;
-  width: 100px;
-  height: 100px;
+  position: relative;
+  top: 83%;
+  width: 100%;
+}
+.Profile-img ul > li {
+  outline: 1px red solid;
+  width: 150px;
+  height: 150px;
   margin: 0 auto;
-  margin-top: 30px;
 }
