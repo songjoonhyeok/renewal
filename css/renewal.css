@@ -170,6 +170,9 @@ header {
   position: relative;
 }
 .Profile-img ul > li {
+  position: absolute;
+  top: -80px;
+  left: 47%;
   outline: 1px red solid;
   width: 150px;
   height: 150px;
