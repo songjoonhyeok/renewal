@@ -24,6 +24,7 @@ p {
 body {
   margin: 0px;
   padding: 0px;
+  overflow: hidden;
 }
 html,
 body {
@@ -41,6 +42,9 @@ body {
 }
 .cr {
   clear: right;
+}
+.wab {
+  height: 100%;
 }
 header {
   outline: 1px red solid;
