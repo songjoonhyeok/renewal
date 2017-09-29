@@ -224,9 +224,18 @@ header {
 .left-right-switch > div {
   padding: 0px 40px;
   text-align: center;
+  position: relative;
+}
+.hidden {
+  outline: 1px red solid;
 }
 .left-text {
-  width: 40%;
+  width: 50%;
+  height: 1000px;
+  outline: 1px blue solid;
+}
+.right-text {
+  width: 50%;
   height: 1000px;
   outline: 1px blue solid;
 }
@@ -234,7 +243,6 @@ header {
   width: 20%;
   height: 100%;
   font-size: 0px;
-  position: relative;
 }
 .switch span {
   display: inline-block;
@@ -246,6 +254,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: absolute;
+  left: 48%;
 }
 .switch span > a {
   display: inline-block;
@@ -255,10 +265,5 @@ header {
   outline: 1px red solid;
   position: absolute;
   top: 15px;
-  left: 120px;
-}
-.right-text {
-  width: 40%;
-  height: 1000px;
-  outline: 1px blue solid;
+  left: 12px;
 }
