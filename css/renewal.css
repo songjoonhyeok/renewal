@@ -189,8 +189,10 @@ header {
   padding: 0px 40px;
 }
 .site {
-  width: 50%;
-  margin-top: 150px;
+  width: 40%;
+  margin-top: 70px;
+  margin-right: 10%;
+  text-align: right;
 }
 .site ul > li {
   margin-bottom: 10px;
@@ -199,12 +201,64 @@ header {
   margin-bottom: 20px;
 }
 .main-text {
-  width: 50%;
-  margin-top: 150px;
+  width: 40%;
+  margin-top: 70px;
+  margin-left: 10%;
 }
 .main-text ul > li {
   margin-bottom: 10px;
 }
 .main-text > h1 {
   margin-bottom: 20px;
+}
+.btn-height {
+  outline: 1px black solid;
+  background-color: red;
+  width: 100%;
+  margin-top: 30px;
+}
+.left-right-switch {
+  outline: 1px black solid;
+  max-width: 1920px;
+}
+.left-right-switch > div {
+  padding: 0px 40px;
+  text-align: center;
+}
+.left-text {
+  width: 40%;
+  height: 1000px;
+  outline: 1px blue solid;
+}
+.switch {
+  width: 20%;
+  height: 100%;
+  font-size: 0px;
+  position: relative;
+}
+.switch span {
+  display: inline-block;
+  width: 142px;
+  height: 396px;
+  font-size: 10px;
+  outline: 1px red solid;
+  background-image: url(../img/btn-h.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.switch span > a {
+  display: inline-block;
+  font-size: 10px;
+  width: 70px;
+  height: 68px;
+  outline: 1px red solid;
+  position: absolute;
+  top: 15px;
+  left: 120px;
+}
+.right-text {
+  width: 40%;
+  height: 1000px;
+  outline: 1px blue solid;
 }
