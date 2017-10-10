@@ -244,7 +244,7 @@ header {
   height: 100%;
   font-size: 0px;
 }
-.switch span {
+.switch > span {
   display: inline-block;
   width: 142px;
   height: 396px;
@@ -257,7 +257,7 @@ header {
   position: absolute;
   left: 48%;
 }
-.switch span > a {
+.switch > span > a {
   display: inline-block;
   font-size: 10px;
   width: 70px;
@@ -266,4 +266,10 @@ header {
   position: absolute;
   top: 15px;
   left: 12px;
+}
+.down-switch {
+  outline: 1px red solid;
+  width: 100%;
+  height: 500px;
+  position: relative;
 }
