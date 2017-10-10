@@ -308,6 +308,17 @@ header {
   top: 15px;
   left: 12px;
 }
+.ssss {
+  outline: 1px black solid;
+  height: 500px;
+  width: 100%;
+}
+.123 {
+  max-width: 1920px;
+}
+.123 > div {
+  padding: 0px 40px;
+}
 footer {
   outline: 1px red solid;
   height: 400px;
