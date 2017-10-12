@@ -377,6 +377,87 @@ header {
   height: 340px;
   margin-left: 7px;
   font-size: 15px;
+  overflow: hidden;
+}
+.atom > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.atom > a > img {
+  width: 100%;
+}
+.photoshop > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.photoshop > a > img {
+  width: 100%;
+}
+.github > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.github > a > img {
+  width: 100%;
+}
+.photoshop1 > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.photoshop1 > a > img {
+  width: 100%;
+}
+.photoshop2 > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.photoshop2 > a > img {
+  width: 100%;
+}
+.photoshop3 > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.photoshop3 > a > img {
+  width: 100%;
+}
+.atom1 > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.atom1 > a > img {
+  width: 100%;
+}
+.atom2 > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.atom2 > a > img {
+  width: 100%;
+}
+.photoshop4 > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.photoshop4 > a > img {
+  width: 100%;
+}
+.atom3 > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.atom3 > a > img {
+  width: 100%;
 }
 footer {
   outline: 1px red solid;
