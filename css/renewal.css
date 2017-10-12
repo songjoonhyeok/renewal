@@ -352,7 +352,6 @@ header {
   height: 50px;
   display: inline-block;
   z-index: 2;
-  background-color: #fff;
 }
 #slider-btn .btn-left {
   position: absolute;
@@ -362,18 +361,17 @@ header {
   height: 50px;
   display: inline-block;
   z-index: 2;
-  background-color: #fff;
 }
 .slider {
   border: 1px black solid;
   overflow: hidden;
 }
-.slider > ul {
+.slider > .list {
   width: 6070px;
   font-size: 0px;
   position: relative;
 }
-.slider > ul > li {
+.slider > .list > li {
   display: inline-block;
   width: 600px;
   height: 340px;
