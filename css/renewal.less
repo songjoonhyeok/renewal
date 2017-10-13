@@ -68,7 +68,7 @@
                                     >div{padding:0px 40px; text-align:center; position:relative;}
                                   }
 
-                     .hidden{outline:1px red solid; height:2630px;}
+                     .hidden{outline:1px red solid; height:2630px; background-color:red; display:none;}
                      .left-text{width:50%; outline:1px blue solid; text-align:center;
                             >ul>h2{outline:1px red solid; margin-bottom:20px; margin-top:50px;}
                             >ul>li{margin-top:30px;}
@@ -80,75 +80,79 @@
                      .right-text{width:50%; outline:1px blue solid;
                        >ul>h2{outline:1px red solid; margin-bottom:20px; margin-top:50px;}
                        >ul>li{margin-top:30px;}
+                                }
 
 
 
-                     }
-
-
-
-                     .switch{width:20%; height:100%; font-size:0px;
-                        >span{display:inline-block; width:142px; height:396px; font-size:10px; outline:1px red solid; background-image:url(../img/btn-h.png);
-                       .bottom{outline:1px black solid; font-size:10px; display:inline-block; width:142px; height:396px;
+                     .switch{width:100%; height:100%; font-size:0px;
+                        >span{display:inline-block; width:100%; height:295px; font-size:10px; outline:1px red solid; }
+                      .bottom{outline:1px black solid; font-size:10px; display:inline-block; width:142px; height:396px;
                                position:absolute; top:700px; left:48%;}
-                        .top{display:inline-block; width:142px; height:396px; font-size:10px; outline:1px red solid; background-image:url(../img/btn-h.png);}
-                            background-repeat:no-repeat; background-size:cover; background-position:center; position:absolute; left:48%;
-                            >a{display:inline-block; font-size:10px; width:70px; height:68px; outline:1px red solid; position:absolute;
-                               top:15px; left:12px;}
+                        .top{display:inline-block; width:100%; height:295px; font-size:10px; outline:1px red solid;
+                             background-image:url(../img/point.png); z-index:3;
+                             background-repeat:no-repeat; background-size:cover; background-position:center;
+                            >a{display:inline-block; font-size:10px; width:276px; height:162px; outline:1px red solid;
+                               position:absolute; top:15px; left:800px; z-index:4;
+                               background-image:url(../img/axo.png); background-repeat:no-repeat; }
                                 }
                               }
 
                       .down-switch{outline:1px red solid; width:100%; height:500px; position:relative;}
-                      #slider{outline:1px black solid; height:500px; width:100%;  background-color:#2a2a2a;}
-                       .slider-a{ max-width:1920px; padding:0 40px;}
-                        .slider-text{outline:1px black solid; text-align:center; padding:40px; color:#fff;
-                            >h3{font-size:35px;}
-                        }
 
-                      #slider-btn{position:relative;
-                        .btn-right{position:absolute; top:120px; left:1760px; width:50px; height:50px; display: inline-block; z-index: 2;
+                    //슬라이드 텍스트 구간//
+                    #slider{outline:1px black solid; height:500px; width:100%;  background-color:#ffd9a2;}
+                    .slider-a{ max-width:1920px; padding:0 40px;}
+                    .slider-text{outline:1px black solid; text-align:center; padding:40px; color:#353535;
+                      >h3{font-size:35px;}
+                    }
+                    //슬라이드 텍스트 구간 종료//
 
-                        }
-                        .btn-left{position:absolute; top:120px; left:20px;width:50px; height:50px; display: inline-block; z-index: 2;
+                    //슬라이드 버튼 구간
+                    #slider-btn{position:relative;
+                      .btn-right{position:absolute; top:120px; left:1760px; width:50px; height:50px; display: inline-block; z-index: 2;
 
-                        }
                       }
+                      .btn-left{position:absolute; top:120px; left:20px;width:50px; height:50px; display: inline-block; z-index: 2;
 
+                      }
+                    }
+                    //슬라이드 버튼구간 종료//
 
-
-                       .slider{border:1px black solid; overflow:hidden;
-                          >.list{width:6070px; font-size:0px; position:relative;}
-                        >.list>li{display:inline-block; width:600px; height:340px; margin-left:7px; font-size:15px; overflow:hidden;}
-                       }
+                     //슬라이드 구간이미지란 //
+                      .slider{border:1px black solid; overflow:hidden;
+                      >.list{width:6070px; font-size:0px; position:relative;}
+                      >.list>li{display:inline-block; width:600px; height:340px; margin-left:7px; font-size:15px; overflow:hidden;}
+                      }
                       .atom>a{display:inline-block; width:100%; height:100%;
-                             >img{width:100%;}
+                         >img{width:100%;}
                       }
                       .photoshop>a{display:inline-block; width:100%; height:100%;
-                             >img{width:100%;}
+                         >img{width:100%;}
                       }
                       .github>a{display:inline-block; width:100%; height:100%;
-                             >img{width:100%;}
-                           }
-                     .photoshop1>a{display:inline-block; width:100%; height:100%;
-                            >img{width:100%;}
-                     }
-                     .photoshop2>a{display:inline-block; width:100%; height:100%;
-                            >img{width:100%;}
-                     }
-                     .photoshop3>a{display:inline-block; width:100%; height:100%;
-                            >img{width:100%;}
-                     }
-                     .atom1>a{display:inline-block; width:100%; height:100%;
-                            >img{width:100%;}
-                     }
-                     .atom2>a{display:inline-block; width:100%; height:100%;
-                            >img{width:100%;}
-                     }
-                     .photoshop4>a{display:inline-block; width:100%; height:100%;
-                            >img{width:100%;}
-                     }
-                     .atom3>a{display:inline-block; width:100%; height:100%;
-                            >img{width:100%;}
-                     }
+                         >img{width:100%;}
+                       }
+                      .photoshop1>a{display:inline-block; width:100%; height:100%;
+                        >img{width:100%;}
+                      }
+                      .photoshop2>a{display:inline-block; width:100%; height:100%;
+                        >img{width:100%;}
+                      }
+                      .photoshop3>a{display:inline-block; width:100%; height:100%;
+                        >img{width:100%;}
+                      }
+                      .atom1>a{display:inline-block; width:100%; height:100%;
+                        >img{width:100%;}
+                      }
+                      .atom2>a{display:inline-block; width:100%; height:100%;
+                        >img{width:100%;}
+                      }
+                      .photoshop4>a{display:inline-block; width:100%; height:100%;
+                        >img{width:100%;}
+                      }
+                      .atom3>a{display:inline-block; width:100%; height:100%;
+                        >img{width:100%;}
+                      }
+                    //슬라이드 구간 end//
 
           footer{outline:1px red solid; height:400px; text-align:center;}

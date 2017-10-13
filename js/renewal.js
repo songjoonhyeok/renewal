@@ -10,7 +10,7 @@ $(function(){
   var box_width = $(".list").width();
   var list_li_width = $(".list li").width();
   var list_size = list_li_width * $(".list li").size();
-
+var img_margin = $('#slider').css('margin-top','400px');
   $(".list").width();
   $(".list li:lt(9)").appendTo(".list")
   $(".list").css("margin-left",-list_li_width)
@@ -41,6 +41,16 @@ $(function(){
       })
       return false;
     });
+
+
+ var img_margin = $('#slider').css('margin-top','400px');
+
+    $('.switch .top a').click(function(e){
+        e.preventDefault();
+        var speed1 = 10000;
+      $('.hidden').css('display','block')
+      $('#slider').css('margin-top','')
+     })
 
 
 
