@@ -503,6 +503,24 @@ header {
   text-align: center;
   line-height: 6;
 }
+#graph .container {
+  width: 1240px;
+  outline: 1px red solid;
+  height: 100px;
+}
+#graph .container > h3 {
+  margin: 15px;
+}
+#graph .container .progress-bar {
+  background-color: #337ab7;
+  color: #fff;
+  height: 100%;
+  font-size: 12px;
+  line-height: 34px;
+}
+#graph .container .progress-bar > .sr-only {
+  font-size: 24px;
+}
 footer {
   outline: 1px red solid;
   height: 400px;
