@@ -49,8 +49,10 @@ $(function(){
 
       $('.hidden').css('display','block');
       $('.switch .top a').css('display','none');
-      $('.switch .bottom ').css('display','inline-block');
+      $('.bottom').css('display','inline-block');
+      $('.bottom a').css('display','inline-block');
       $('#slider').css('margin-top','0px');
+
      })
 
      $('.switch .bottom a').click(function(e){
