@@ -10,7 +10,6 @@ $(function(){
   var box_width = $(".list").width();
   var list_li_width = $(".list li").width();
   var list_size = list_li_width * $(".list li").size();
-var img_margin = $('#slider').css('margin-top','400px');
   $(".list").width();
   $(".list li:lt(9)").appendTo(".list")
   $(".list").css("margin-left",-list_li_width)
@@ -43,15 +42,25 @@ var img_margin = $('#slider').css('margin-top','400px');
     });
 
 
- var img_margin = $('#slider').css('margin-top','400px');
+
 
     $('.switch .top a').click(function(e){
         e.preventDefault();
-        var speed1 = 10000;
-      $('.hidden').css('display','block')
-      $('#slider').css('margin-top','')
+
+      $('.hidden').css('display','block');
+      $('.switch .top a').css('display','none');
+      $('.switch .bottom ').css('display','inline-block');
+      $('#slider').css('margin-top','0px');
      })
 
+     $('.switch .bottom a').click(function(e){
+         e.preventDefault();
+       $('.hidden').css('display','none');
+       $('.switch .top a').css('display','inline-block');
+       $('.switch .bottom a').css('display','none');
+       $('#slider').css('margin-top','327px');
+
+      })
 
 
 

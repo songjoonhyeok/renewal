@@ -221,20 +221,20 @@ header {
   max-width: 1920px;
 }
 .left-right-switch > div {
-  padding: 0px 40px;
   text-align: center;
   position: relative;
 }
 .hidden {
   outline: 1px red solid;
-  height: 2630px;
-  background-color: red;
+  height: 1630px;
+  background-image: url(../img/background.png);
   display: none;
 }
 .left-text {
   width: 50%;
   outline: 1px blue solid;
   text-align: center;
+  color: #fff;
 }
 .left-text > ul > h2 {
   outline: 1px red solid;
@@ -263,6 +263,7 @@ header {
 .right-text {
   width: 50%;
   outline: 1px blue solid;
+  color: #fff;
 }
 .right-text > ul > h2 {
   outline: 1px red solid;
@@ -276,6 +277,7 @@ header {
   width: 100%;
   height: 100%;
   font-size: 0px;
+  position: relative;
 }
 .switch > span {
   display: inline-block;
@@ -288,11 +290,23 @@ header {
   outline: 1px black solid;
   font-size: 10px;
   display: inline-block;
-  width: 142px;
-  height: 396px;
+  width: 100%;
+  height: 295px;
   position: absolute;
-  top: 700px;
-  left: 48%;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.switch .bottom > a {
+  display: inline-block;
+  font-size: 10px;
+  width: 272px;
+  height: 250px;
+  outline: 1px red solid;
+  position: absolute;
+  top: 36px;
+  left: 813px;
+  z-index: 4;
 }
 .switch .top {
   display: inline-block;
@@ -309,15 +323,13 @@ header {
 .switch .top > a {
   display: inline-block;
   font-size: 10px;
-  width: 200px;
+  width: 272px;
   height: 250px;
   outline: 1px red solid;
   position: absolute;
-  top: 15px;
-  left: 800px;
+  top: 36px;
+  left: 813px;
   z-index: 4;
-  background-image: url(../img/axo.png);
-  background-repeat: no-repeat;
 }
 .down-switch {
   outline: 1px red solid;
@@ -330,6 +342,7 @@ header {
   height: 500px;
   width: 100%;
   background-color: #ffd9a2;
+  margin-top: 327px;
 }
 .slider-a {
   max-width: 1920px;
