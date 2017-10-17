@@ -52,7 +52,6 @@ $(function(){
       $('.bottom').css('display','inline-block');
       $('.bottom a').css('display','inline-block');
       $('#slider').css('margin-top','0px');
-
      })
 
      $('.switch .bottom a').click(function(e){
@@ -61,11 +60,43 @@ $(function(){
        $('.switch .top a').css('display','inline-block');
        $('.switch .bottom a').css('display','none');
        $('#slider').css('margin-top','327px');
-
       })
 
-
-
-
+      $('#graph li:Contains(photoshopCS6)').click(function(e){
+          e.preventDefault();
+          $('#graph #photoshopCS6').animate({
+            'width':'90%'
+          },2000)
+            })
+        $('#graph li:Contains(illustrator‎cs6)').click(function(e){
+            e.preventDefault();
+            $('#graph #illustrator‎cs6').animate({
+              'width':'60%'
+            },2000)
+              })
+          $('#graph li:Contains(html5)').click(function(e){
+              e.preventDefault();
+              $('#graph #html5').animate({
+                'width':'80%'
+              },2000)
+                })
+          $('#graph li:Contains(css3)').click(function(e){
+              e.preventDefault();
+              $('#graph #css3').animate({
+                'width':'70%'
+              },2000)
+                })
+          $('#graph li:Contains(javaScript)').click(function(e){
+              e.preventDefault();
+              $('#graph #javaScript').animate({
+                'width':'40%'
+              },2000)
+                })
+            $('#graph li:Contains(jQuery)').click(function(e){
+                e.preventDefault();
+                $('#graph #jQuery').animate({
+                  'width':'65%'
+                },2000)
+                  })
 
 })

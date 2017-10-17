@@ -43,7 +43,6 @@ body {
   clear: right;
 }
 header {
-  outline: 1px red solid;
   width: 100%;
   height: 80px;
   background-color: rgba(255, 193, 144, 0.8);
@@ -55,16 +54,13 @@ header {
 }
 .all {
   padding: 0 40px;
-  outline: 1px red solid;
   max-width: 1580px;
   margin: 0 auto;
 }
 .logo {
   margin-top: 10px;
-  outline: 1px red solid;
 }
 .category {
-  outline: 1px red solid;
   margin-top: 20px;
 }
 .category > ul {
@@ -72,7 +68,6 @@ header {
   text-align: center;
 }
 .category > ul > li {
-  outline: 1px red solid;
   width: 150px;
   display: inline-block;
   font-size: 15px;
@@ -137,18 +132,15 @@ header {
   left: 0;
   width: 100%;
   text-align: center;
-  outline: 1px red solid;
   z-index: 2;
   transform: translateY(-100%);
 }
 .down > ul > li {
-  outline: 1px red solid;
   width: 100px;
   height: 30px;
   margin: 0 auto;
 }
 .risize-position {
-  outline: 1px red solid;
   width: 100%;
 }
 .risize-position > div {
@@ -159,14 +151,12 @@ header {
   background-color: #ffeccc;
 }
 .risize-position > div > p {
-  outline: 1px red solid;
   width: 500px;
   height: 80px;
   margin: 0 auto;
   font-size: 25px;
 }
 .Profile-img {
-  outline: 1px red solid;
   width: 100%;
   position: relative;
 }
@@ -174,13 +164,11 @@ header {
   position: absolute;
   top: -80px;
   left: 47%;
-  outline: 1px red solid;
   width: 150px;
   height: 150px;
   margin: 0 auto;
 }
 .Profile {
-  outline: 1px red solid;
   width: 100%;
   height: 500px;
   position: relative;
@@ -225,7 +213,6 @@ header {
   position: relative;
 }
 .hidden {
-  outline: 1px red solid;
   height: 1630px;
   background-image: url(../img/background.png);
   display: none;
@@ -237,7 +224,6 @@ header {
   color: #fff;
 }
 .left-text > ul > h2 {
-  outline: 1px red solid;
   margin-bottom: 20px;
   margin-top: 50px;
 }
@@ -245,7 +231,6 @@ header {
   margin-top: 30px;
 }
 .left-text .paragraph {
-  outline: 1px red solid;
   width: 40px;
   height: 40px;
   margin: 0 auto;
@@ -253,7 +238,6 @@ header {
   font-size: 0px;
 }
 .left-text .paragraph > img {
-  outline: 1px red solid;
   width: 25px;
   height: 25px;
   display: inline-block;
@@ -266,7 +250,6 @@ header {
   color: #fff;
 }
 .right-text > ul > h2 {
-  outline: 1px red solid;
   margin-bottom: 20px;
   margin-top: 50px;
 }
@@ -284,7 +267,6 @@ header {
   width: 100%;
   height: 295px;
   font-size: 10px;
-  outline: 1px red solid;
 }
 .switch .bottom {
   outline: 1px black solid;
@@ -302,7 +284,6 @@ header {
   font-size: 10px;
   width: 272px;
   height: 250px;
-  outline: 1px red solid;
   position: absolute;
   top: 36px;
   left: 813px;
@@ -313,7 +294,6 @@ header {
   width: 100%;
   height: 295px;
   font-size: 10px;
-  outline: 1px red solid;
   background-image: url(../img/point.png);
   z-index: 3;
   background-repeat: no-repeat;
@@ -325,14 +305,12 @@ header {
   font-size: 10px;
   width: 272px;
   height: 250px;
-  outline: 1px red solid;
   position: absolute;
   top: 36px;
   left: 813px;
   z-index: 4;
 }
 .down-switch {
-  outline: 1px red solid;
   width: 100%;
   height: 500px;
   position: relative;
@@ -476,7 +454,6 @@ header {
   width: 100%;
 }
 #graph {
-  outline: 1px red solid;
   width: 100%;
 }
 #graph > h3 {
@@ -499,13 +476,11 @@ header {
 #graph .program > ul > li {
   width: 200px;
   height: 100px;
-  outline: 1px red solid;
   text-align: center;
   line-height: 6;
 }
 #graph .container {
   width: 1240px;
-  outline: 1px red solid;
   height: 100px;
 }
 #graph .container > h3 {
@@ -530,7 +505,7 @@ header {
   font-size: 17px;
 }
 footer {
-  outline: 1px red solid;
   height: 400px;
   text-align: center;
+  background-color: red;
 }
