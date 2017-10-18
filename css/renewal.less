@@ -15,23 +15,26 @@
                   .cr{clear:right};
       // background-image: url(../img/main.jpg);
         //헤더 시작
-            header{  width:100%; height:80px; background-color:rgba(255, 193, 144, 0.8);
-                    position:fixed; z-index:2;}
+            header{ width:100%; height:80px; border:0.5px rgba(255,255,255,0.5) solid;
+                    position:fixed; z-index:2;
+                    }
                   .nav{width:1920px;}
                   .all{padding:0 40px;  max-width:1580px; margin:0 auto;}
                   .logo{margin-top:10px; }
                   .category{ margin-top:20px;
                           >ul{font-size:0px; text-align:center;}
-                        >ul>li{ width:150px; display:inline-block; font-size:15px; margin:0px 10px;}
+                        >ul>li{ width:150px; display:inline-block; font-size:15px; margin:0px 10px;
+                              >a{color:#fff;}
+                        }
                             }
               .main-intro{width:100%; hegith:100%; height:100vh;
                           background-image:url(../img/main-img.jpg); background-repeat:no-repeat;
                           background-size:cover; background-position:center; color:#fff;
                         .text{outline:1px black solid;}
-                        .main{position:absolute; top:30%; outline:2px blue solid; width:500px; height:300px; left:200px;}
-                        .main-text{outline:2px black solid;}
-                        .position-top{position:absolute; top:20px;}
-                        .position-middle{position:absolute; top:50px;}
+                        .main{position:absolute; top:30%; outline:2px blue solid; width:500px; height:300px; left:35%;}
+                        .main-text{}
+                        .position-top{position:absolute; top:20px; font-size:20px; left:0px;}
+                        .position-middle{position:absolute; top:50px; font-size:24px; left:0px;}
                         .text-bottom{outline:2px black solid; font-size:24px; position:absolute; top:100px;}
                         .btn-box{position:absolute; top:180px; left:5px; width:160px; height:60px; outline:1px black solid; font-size:0px;
                             >a{display:inline-block; font-size:15px; width:100%; height:100%;}
@@ -57,7 +60,7 @@
                                     >h1{margin-bottom:20px;}
                                       }
                     .main-text{width:40%; margin-top:70px; margin-left:10%;
-                                ul>li{margin-bottom:10px;}
+                                ul>li{margin-bottom:20px;}
                                     >h1{margin-bottom:20px;}
                                       }
 
@@ -163,7 +166,7 @@
                       >h3{margin:20px 0px; text-align:center; font-size:20px;}
                   .program{width:100%; outline:1px black solid; max-width:1520px; margin:0 auto; height:600px;
                           >ul{padding:0 40px; position:relative; width:200px;}
-                        >ul>li{width:200px; height:100px;  text-align:center; line-height:6;}
+                        >ul>li{width:200px; height:100px;  text-align:center; line-height:6; text-indent:9999px;}
                             }
                   .container{width:1240px;  height:100px;
                             >h3{margin:5px;}
@@ -175,5 +178,27 @@
                                }
                            }
                         }
-
+                #photoshop{background-image: url(../img/photoshopcs6.png); background-repeat:no-repeat;}
+                #cs6{background-image: url(../img/cs6.png); background-repeat:no-repeat;}
+                #html{background-image: url(../img/html5.png); background-repeat:no-repeat;}
+                #css{background-image: url(../img/css3.png); background-repeat:no-repeat;}
+                #javaScrip{background-image: url(../img/javaScript.png); background-repeat:no-repeat;}
+                #jQ{background-image: url(../img/jQuery.png); background-repeat:no-repeat;}
+                // @-webkit-keyframes typing {
+                //     from {width:0 }
+                //     to {width: 16.5em}
+                //      }
+                // @-webkit-keyframes blink-caret {
+                //     from, to {border-color: transparent}
+                //     100% {border-color: black}
+                // }
+                // body {font-family: Consolas, monospace;}
+                // .position-middle{
+                //     font-size: 100%;
+                //     width: 16.5em;
+                //     white-space: nowrap;
+                //     overflow: hidden;
+                //     border-right: .1em solid black;
+                //     -webkit-animation: typing 17s steps(31, end), blink-caret 1s step-end infinite;
+                // }
           footer{ height:400px; text-align:center; background-color:red;}

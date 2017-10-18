@@ -98,5 +98,42 @@ $(function(){
                   'width':'65%'
                 },2000)
                   })
+            $(window).scroll(function(){
+               var src = $(this).scrollTop();
+                    if (src >= 10){
+                    $('#header').css({
+                    'background-color':'rgba(207,108,30,1)'
+                 })
+               }else if (src <= 10){
+                 $('#header').css({
+                    'background-color':'rgba(0,0,0,0)'
+                 })
+               }
+            })
+
+  // function changeText(cont1,cont2,speed){
+  //           	var Otext=cont1.text();
+  //           	var Ocontent=Otext.split("");
+  //           	var i=0;
+  //           	function show(){
+  //           		if(i<Ocontent.length)
+  //           		{
+  //           			cont2.append(Ocontent[i]);
+  //           			i=i+1;
+  //           		};
+  //           	};
+  //           		var Otimer=setInterval(show,speed);
+  //           };
+            // $(document).ready(function(){
+            // 	changeText($("p"),$(".p2"),150);
+            // 	clearInterval(Otimer);
+            // });
+
+
+
+
+
+
+
 
 })
